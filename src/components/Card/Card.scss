@@ -1,0 +1,12 @@
+.image {
+    &:hover {
+      .secondImg {
+        z-index: 2;
+      }
+      
+    }
+      .mainImg {
+        z-index: 1;
+      }
+  }
+  
