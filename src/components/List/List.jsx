@@ -16,7 +16,7 @@ const List = () => {
       ]
       
   return (
-    <div className='list'>
+    <div className='list flex justify-between flex-wrap'>
         {data?.map((item)=>(
             <Card  item={item} key={item.id}/>
         ))}

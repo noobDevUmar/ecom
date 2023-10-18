@@ -10,8 +10,8 @@ const Products = () => {
 
 
   return (
-    <div className=' flex w-[100vw]'>
-      <div className="left ">
+    <div className=' flex  py-[30p] px-[50px] flex gap-10'>
+      <div className="left sticky">
         <div className="filterItem">
           <h2 className='font-bold text-lg '> Product Categories</h2>
             <div className="inputItem">
@@ -51,7 +51,7 @@ const Products = () => {
           </div>
         </div>
       </div>
-      <div className="right bg-blue-400">
+      <div className="right  flex-1">
         <img 
         className='catImg h-[300px] w-[100%] object-cover mb-30 '
         src='https://images.unsplash.com/photo-1682687221006-b7fd60cf9dd0?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=1470'
